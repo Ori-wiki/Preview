@@ -8,7 +8,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  /* color: rgba(255, 255, 255, 0.87); */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,10 +21,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: #070d20;
-  display: flex;
+  /* display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh; */
 }
 
 .circle-effect {
@@ -33,6 +33,6 @@ body {
 
 .gradient {
   @apply absolute w-full h-full top-0 left-0;
-  background: liner-gradient(220deg, #0c162c, #4d1c3d);
+  background: linear-gradient(220deg, #0c162c, #4d1c3d);
   opacity: 0.85;
 }
