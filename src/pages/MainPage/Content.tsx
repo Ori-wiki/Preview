@@ -10,6 +10,7 @@ const Content = () => {
         src={logoImg}
         className='mb-10 -ml-20'
         draggable={false}
+        style={{ width: '630px' }}
       />
       <div className='flex ml-5'>
         <img

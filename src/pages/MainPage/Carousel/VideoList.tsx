@@ -1,6 +1,7 @@
 import React from 'react';
 import { Slide } from '../../../types/Slide';
 import VideoItem from './VideoItem';
+import { useModal } from '../../../components/layout/ModalProvider';
 interface IVideoListProps {
   slides: Slide[];
   currentIndex: number;
@@ -12,8 +13,11 @@ const VideoList = ({
   currentIndex,
   setCurrentIndex,
 }: IVideoListProps) => {
+  const { setVideoUrl } = useModal();
+
   const playHandler = (index: number, videoUrl: string) => {
     setCurrentIndex(index);
+    setVideoUrl(videoUrl);
   };
 
   const count = currentIndex * 192;
