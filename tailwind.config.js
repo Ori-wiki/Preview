@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        pink: '#FF287E',
+        'pink-sq': '#FF287E',
       },
     },
   },
