@@ -3,15 +3,15 @@ import Layout from '../../components/layout/Layout';
 import Content from './Content';
 import Details from './Details';
 import Soilder from './Soilder';
+import Carousel from './Carousel/Carousel';
 
 const Main = () => {
   return (
     <Layout>
-      <div style={{ height: '70vh' }}>
-        <Content />
-        <Soilder />
-        <Details />
-      </div>
+      <Content />
+      <Carousel />
+      <Soilder />
+      <Details />
     </Layout>
   );
 };
