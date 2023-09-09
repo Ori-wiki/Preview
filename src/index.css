@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  background-color: #070d20;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -20,7 +24,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #070d20;
+
   /* display: flex;
   place-items: center;
   min-width: 320px;
